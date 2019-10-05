@@ -24,6 +24,11 @@ body {
     padding: .5rem;
 }
 
+.header_branding a {
+    text-decoration: none;
+}
+
+
 .header_branding h1 {
     margin: 0;
     color: #FA9945;
@@ -35,11 +40,16 @@ body {
     margin: 0;
     font-weight: bold;
     font-size: .85rem;
+    color: #969898;
 }
 
 .header_nav {
     display: flex;
     align-items: center;
+}
+
+.header_nav a {
+    text-decoration: none;
 }
 
 .header_nav-item {
@@ -48,6 +58,7 @@ body {
     font-weight: bold;
     transition: all .25s;
     border-bottom: 2px solid transparent;
+    color: #969898;
 }
 
 .content_button-main {
@@ -71,6 +82,10 @@ body {
     cursor: pointer;
 }
 
+.header_nav-item.donate {
+    color: #FA9945;
+}
+
 .header_nav-item.donate:hover {
     border-color: #FA9945;
 }
@@ -87,4 +102,10 @@ h2.content-tagline {
     font-size: 4rem;
     margin: 0;
     font-weight: bold;
+}
+
+.footer {
+    width: 100%;
+    background-color: #969898;
+    height: 10%;
 }
