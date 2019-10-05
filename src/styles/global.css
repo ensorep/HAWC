@@ -1,4 +1,90 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
 #app {
     margin: 0;
-    background: url('../images/dogBG.jpg')
+    padding: 0;
+    background: url('../images/dogBG.jpg');
+    color: #96989B;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+.donate {
+    color: #FA9945;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: .5rem;
+}
+
+.header_branding h1 {
+    margin: 0;
+    color: #FA9945;
+    font-size: 3rem;
+    letter-spacing: -4px;
+}
+
+.header_branding p {
+    margin: 0;
+    font-weight: bold;
+    font-size: .85rem;
+}
+
+.header_nav {
+    display: flex;
+    align-items: center;
+}
+
+.header_nav-item {
+    list-style: none;
+    margin: 0 .5rem;
+    font-weight: bold;
+    transition: all .25s;
+    border-bottom: 2px solid transparent;
+}
+
+.content_button-main {
+    margin-top: 2rem;
+    padding: .75rem 1.25rem;
+    color: white;
+    background: #FA9945;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: bold;
+    transition: all .5s;
+}
+
+.content_button-main:hover {
+    padding: .75rem 2.5rem;
+}
+
+.header_nav-item:hover {
+    border-color: #969898;
+    cursor: pointer;
+}
+
+.header_nav-item.donate:hover {
+    border-color: #FA9945;
+}
+
+
+.content {
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    top: 20%;
+}
+
+h2.content-tagline {
+    font-size: 4rem;
+    margin: 0;
+    font-weight: bold;
 }
