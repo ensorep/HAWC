@@ -15,5 +15,3 @@ export default () => (
     </div>
   </div>
 )
-
-export default Index;
